@@ -9,7 +9,7 @@ const ButtonMain = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <Button onClick={() => setCount(count + 420)} colorScheme="blue">
+    <Button onClick={() => setCount(count - 10000)} colorScheme="blue">
       Activate Lasers : {count}
     </Button>
   );
